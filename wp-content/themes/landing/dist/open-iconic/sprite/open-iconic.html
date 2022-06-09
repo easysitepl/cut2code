@@ -1,0 +1,267 @@
+ti; Actions: 7.1.9output_buffering ;
+Type: item; Caption: "request_order = GP"; Action: multi; Actions: 7.1.9request_order ;
+Type: item; Caption: "session.save_path = d:/wamp64/tmp"; Action: multi; Actions: 7.1.9session.save_path ;
+Type: item; Caption: "upload_tmp_dir = d:/wamp64/tmp"; Action: multi; Actions: 7.1.9upload_tmp_dir ;
+Type: item; Caption: "variables_order = GPCS"; Action: multi; Actions: 7.1.9variables_order ;
+Type: item; Caption: "zend.enable_gc = On"; Action: multi; Actions: 7.1.9zend.enable_gc ;
+Type: separator;
+Type: item; Caption: "error_reporting = E_ALL"; Glyph: 22; Action: multi; Actions: 7.1.9error_reporting
+Type: item; Caption: "       Development value"; Action: none
+Type: item; Caption: "Show all errors, warnings and notices including coding standards."; Action: none
+Type: separator;
+Type: submenu; Caption: "Commented php.ini directives (; at the beginning of the line)"; Submenu: 7.1.9phpinicommented; Glyph: 9
+Type: separator; Caption: "Settings Depreciated | Deleted | New"
+Type: item; Caption: "enable_dl"; Action: multi; Actions: 7.1.9enable_dl;Glyph:19
+
+[7.1.9allow_url_fopen]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php allow_url_fopen off 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9allow_url_include]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php allow_url_include on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9auto_append_file]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 YXV0b19hcHBlbmRfZmlsZQ== CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9auto_globals_jit]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php auto_globals_jit on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9auto_prepend_file]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 YXV0b19wcmVwZW5kX2ZpbGU= CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9default_charset]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 ZGVmYXVsdF9jaGFyc2V0 CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9default_mimetype]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 ZGVmYXVsdF9taW1ldHlwZQ== CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9disable_classes]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 ZGlzYWJsZV9jbGFzc2Vz CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9disable_functions]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 ZGlzYWJsZV9mdW5jdGlvbnM= CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9display_errors]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php display_errors off 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9display_startup_errors]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php display_startup_errors off 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9enable_dl]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 17 ZW5hYmxlX2Rs UEhQIDcuMS45ICAtIERpcmVjdGl2ZTogZW5hYmxlX2RsIGlzIGRlcHJlY2F0ZWQgYXMgb2YgUEhQIDAuMC4w";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9expose_php]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php expose_php off 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9file_uploads]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php file_uploads off 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9ignore_repeated_errors]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php ignore_repeated_errors on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9ignore_repeated_source]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php ignore_repeated_source on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9implicit_flush]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php implicit_flush on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9log_errors]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php log_errors off 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9opcache.enable]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php opcache.enable 1 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9output_buffering]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 b3V0cHV0X2J1ZmZlcmluZw== CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9register_argc_argv]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php register_argc_argv on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9report_memleaks]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php report_memleaks off 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9request_order]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 cmVxdWVzdF9vcmRlcg== CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9session.save_path]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 c2Vzc2lvbi5zYXZlX3BhdGg= CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9short_open_tag]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php short_open_tag on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9track_errors]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php track_errors off 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9upload_tmp_dir]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 dXBsb2FkX3RtcF9kaXI= CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9variables_order]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 dmFyaWFibGVzX29yZGVy CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9zend.enable_gc]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 emVuZC5lbmFibGVfZ2M= CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9zlib.output_compression]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php zlib.output_compression on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9error_reporting]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 ZXJyb3JfcmVwb3J0aW5n CklmIHlvdSB3YW50IHRvIGNoYW5nZSB0aGlzIHZhbHVlLCB5b3UgY2FuIGRvIGl0IGRpcmVjdGx5IGluIHRoZSBmaWxlIHBocC5pbmkKTm90IHRvIGNoYW5nZSB0aGUgd3JvbmcgZmlsZSwgdGhlIGJlc3Qgd2F5IHRvIGFjY2VzcyB0aGlzIGZpbGUgaXM6CldhbXBtYW5hZ2VyIGljb24tPlBIUC0+cGhwLmluaQo=";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[7.1.9xdebug.remote_enable]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php xdebug.remote_enable on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_stop_start_refresh; Flags:appendsection
+
+[7.1.9xdebug.profiler_enable]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php xdebug.profiler_enable on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_stop_start_refresh; Flags:appendsection
+
+[7.1.9xdebug.profiler_enable_trigger]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php xdebug.profiler_enable_trigger on 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_stop_start_refresh; Flags:appendsection
+
+[7.1.9xdebug.show_local_vars]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpParam.php xdebug.show_local_vars 1 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_stop_start_refresh; Flags:appendsection
+
+[7.1.9date.timezone]
+Type: separator; Caption: "Timezone"
+Type: submenu; Caption: "Africa"; Submenu: 7.1.9tzAfrica
+Type: submenu; Caption: "America"; Submenu: 7.1.9tzAmerica
+Type: submenu; Caption: "Antarctica"; Submenu: 7.1.9tzAntarctica
+Type: submenu; Caption: "Arctic"; Submenu: 7.1.9tzArctic
+Type: submenu; Caption: "Asia"; Submenu: 7.1.9tzAsia
+Type: submenu; Caption: "Atlantic"; Submenu: 7.1.9tzAtlantic
+Type: submenu; Caption: "Australia"; Submenu: 7.1.9tzAustralia
+Type: submenu; Caption: "Europe"; Submenu: 7.1.9tzEurope
+Type: submenu; Caption: "Indian"; Submenu: 7.1.9tzIndian
+Type: submenu; Caption: "Pacific"; Submenu: 7.1.9tzPacific
+
+[7.1.9tzAfrica]
+Type: Separator; Caption: "Africa"
+Type: item; Caption: "Africa/Abidjan"; Action: multi; Actions: 7.1.9time_Africa/Abidjan
+Type: item; Caption: "Africa/Accra"; Action: multi; Actions: 7.1.9time_Africa/Accra
+Type: item; Caption: "Africa/Addis_Ababa"; Action: multi; Actions: 7.1.9time_Africa/Addis_Ababa
+Type: item; Caption: "Africa/Algiers"; Action: multi; Actions: 7.1.9time_Africa/Algiers
+Type: item; Caption: "Africa/Asmara"; Action: multi; Actions: 7.1.9time_Africa/Asmara
+Type: item; Caption: "Africa/Bamako"; Action: multi; Actions: 7.1.9time_Africa/Bamako
+Type: item; Caption: "Africa/Bangui"; Action: multi; Actions: 7.1.9time_Africa/Bangui
+Type: item; Caption: "Africa/Banjul"; Action: multi; Actions: 7.1.9time_Africa/Banjul
+Type: item; Caption: "Africa/Bissau"; Action: multi; Actions: 7.1.9time_Africa/Bissau
+Type: item; Caption: "Africa/Blantyre"; Action: multi; Actions: 7.1.9time_Africa/Blantyre
+Type: item; Caption: "Africa/Brazzaville"; Action: multi; Actions: 7.1.9time_Africa/Brazzaville
+Type: item; Caption: "Africa/Bujumbura"; Action: multi; Actions: 7.1.9time_Africa/Bujumbura
+Type: item; Caption: "Africa/Cairo"; Action: multi; Actions: 7.1.9time_Africa/Cairo
+Type: item; Caption: "Africa/Casablanca"; Action: multi; Actions: 7.1.9time_Africa/Casablanca
+Type: item; Caption: "Africa/Ceuta"; Action: multi; Actions: 7.1.9time_Africa/Ceuta
+Type: item; Caption: "Africa/Conakry"; Action: multi; Actions: 7.1.9time_Africa/Conakry
+Type: item; Caption: "Africa/Dakar"; Action: multi; Actions: 7.1.9time_Africa/Dakar
+Type: item; Caption: "Africa/Dar_es_Salaam"; Action: multi; Actions: 7.1.9time_Africa/Dar_es_Salaam
+Type: item; Caption: "Africa/Djibouti"; Action: multi; Actions: 7.1.9time_Africa/Djibouti
+Type: item; Caption: "Africa/Douala"; Action: multi; Actions: 7.1.9time_Africa/Douala
+Type: item; Caption: "Africa/El_Aaiun"; Action: multi; Actions: 7.1.9time_Africa/El_Aaiun
+Type: item; Caption: "Africa/Freetown"; Action: multi; Actions: 7.1.9time_Africa/Freetown
+Type: item; Caption: "Africa/Gaborone"; Action: multi; Actions: 7.1.9time_Africa/Gaborone
+Type: item; Caption: "Africa/Harare"; Action: multi; Actions: 7.1.9time_Africa/Harare
+Type: item; Caption: "Africa/Johannesburg"; Action: multi; Actions: 7.1.9time_Africa/Johannesburg
+Type: item; Caption: "Africa/Juba"; Action: multi; Actions: 7.1.9time_Africa/Juba
+Type: item; Caption: "Africa/Kampala"; Action: multi; Actions: 7.1.9time_Africa/Kampala
+Type: item; Caption: "Africa/Khartoum"; Action: multi; Actions: 7.1.9time_Africa/Khartoum
+Type: item; Caption: "Africa/Kigali"; Action: multi; Actions: 7.1.9time_Africa/Kigali
+Type: item; Caption: "Africa/Kinshasa"; Action: multi; Actions: 7.1.9time_Africa/Kinshasa
+Type: item; Caption: "Africa/Lagos"; Action: multi; Actions: 7.1.9time_Africa/Lagos
+Type: item; Caption: "Africa/Libreville"; Action: multi; Actions: 7.1.9time_Africa/Libreville
+Type: item; Caption: "Africa/Lome"; Action: multi; Actions: 7.1.9time_Africa/Lome
+Type: item; Caption: "Africa/Luanda"; Action: multi; Actions: 7.1.9time_Africa/Luanda
+Type: item; Caption: "Africa/Lubumbashi"; Action: multi; Actions: 7.1.9time_Africa/Lubumbashi
+Type: item; Caption: "Africa/Lusaka"; Action: multi; Actions: 7.1.9time_Africa/Lusaka
+Type: item; Caption: "Africa/Malabo"; Action: multi; Actions: 7.1.9time_Africa/Malabo
+Type: item; Caption: "Africa/Maputo"; Action: multi; Actions: 7.1.9time_Africa/Maputo
+Type: item; Caption: "Africa/Maseru"; Action: multi; Actions: 7.1.9time_Africa/Maseru
+Type: item; Caption: "Africa/Mbabane"; Action: multi; Actions: 7.1.9time_Africa/Mbabane
+Type: item; Caption: "Africa/Mogadishu"; Action: multi; Actions: 7.1.9time_Africa/Mogadishu
+Type: item; Caption: "Africa/Monrovia"; Action: multi; Actions: 7.1.9time_Africa/Monrovia
+Type: item; Caption: "Africa/Nairobi"; Action: multi; Actions: 7.1.9time_Africa/Nairobi
+Type: item; Caption: "Africa/Ndjamena"; Action: multi; Actions: 7.1.9time_Africa/Ndjamena
+Type: item; Caption: "Africa/Niamey"; Action: multi; Actions: 7.1.9time_Africa/Niamey
+Type: item; Caption: "Africa/Nouakchott"; Action: multi; Actions: 7.1.9time_Africa/Nouakchott
+Type: item; Caption: "Africa/Ouagadougou"; Action: multi; Actions: 7.1.9time_Africa/Ouagadougou
+Type: item; Caption: "Africa/Porto-Novo"; Action: multi; Actions: 7.1.9time_Africa/Porto-Novo
+Type: item; Caption: "Africa/Sao_Tome"; Action: multi; Actions: 7.1.9time_Africa/Sao_Tome
+Type: item; Caption: "Africa/Tripoli"; Action: multi; Actions: 7.1.9time_Africa/Tripoli
+Type: item; Caption: "Africa/Tunis"; Action: multi; Actions: 7.1.9time_Africa/Tunis
+Type: item; Caption: "Africa/Windhoek"; Action: multi; Actions: 7.1.9time_Africa/Windhoek
+
+[7.1.9tzAmerica]
+Type: Separator; Caption: "America"
+Type: item; Caption: "America/Adak"; Action: multi; Actions: 7.1.9time_America/Adak
+Type: item; Caption: "America/Anchorage"; Action: multi; Actions: 7.1.9time_America/Anchorage
+Type: item; Caption: "America/Anguilla"; Action: multi; Actions: 7.1.9time_America/Anguilla
+Type: item; Caption: "America/Antigua"; Action: multi; Actions: 7.1.9time_America/Antigua
+Type: item; Caption: "America/Araguaina"; Action: multi; Actions: 7.1.9time_America/Araguaina
+Type: item; Caption: "America/Argentina/Buenos_Aires"; Action: multi; Actions: 7.1.9time_America/Argentina/Buenos_Aires
+Type: item; Caption: "America/Argentina/Catamarca"; Action: multi; Actions: 7.1.9time_America/Argentina/Catamarca
+Type: item; Caption: "America/Argentina/Cordoba"; Action: multi; Actions: 7.1.9time_America/Argentina/Cordoba
+Type: item; Caption: "America/Argentina/Jujuy"; Action: multi; Actions: 7.1.9time_America/Argentina/Jujuy
+Type: item; Caption: "America/Argentina/La_Rioja"; Action: multi; Actions: 7.1.9time_America/Argentina/La_Rioja
+Type: item; Caption: "America/Argentina/Mendoza"; Action: multi; Actions: 7.1.9time_America/Argentina/Mendoza
+Type: item; Caption: "America/Argentina/Rio_Gallegos"; Action: multi; Actions: 7.1.9time_America/Argentina/Rio_Gallegos
+Type: item; Caption: "America/Argentina/Salta"; Action: multi; Actions: 7.1.9time_America/Argentina/Salta
+Type: item; Caption: "America/Argentina/San_Juan"; Action: multi; Actions: 7.1.9time_America/Argentina/San_Juan
+Type: item; Caption: "America/Argentina/San_Luis"; Action: multi; Actions: 7.1.9time_America/Argentina/San_Luis
+Type: item; Caption: "America/Argentina/Tucuman"; Action: multi; Actions: 7.1.9time_America/Argentina/Tucuman
+Type: item; Caption: "America/Argentina/Ushuaia"; Action: multi; Actions: 7.1.9time_America/Argentina/Ushuaia
+Type: item; Caption: "America/Aruba"; Action: multi; Actions: 7.1.9time_America/Aruba
+Type: item; Caption: "America/Asuncion"; Action: multi; Actions: 7.1.9time_America/Asuncion
+Type: item; Caption: "America/Atikokan"; Action: multi; Actions: 7.1.9time_America/Atikokan
+Type: item; Caption: "America/Bahia"; Action: multi; Actions: 7.1.9time_America/Bahia
+Type: item; Caption: "America/Bahia_Banderas"; Action: multi; Actions: 7.1.9time_America/Bahia_Banderas
+Type: item; Caption: "America/Barbados"; Action: multi; Actions: 7.1.9time_America/Barbados
+Type: item; Caption: "America/Belem"; Action: multi; Actions: 7.1.9time_America/Belem
+Type: item; Caption: "America/Belize"; Action: multi; Actions: 7.1.9time_America/Belize
+Type: item; Caption: "America/Blanc-Sablon"; Action: multi; Actions: 7.1.9time_America/Blanc-Sablon
+Type: item; Caption: "America/Boa_Vista"; Action: multi; Actions: 7.1.9time_America/Boa_Vista
+Type: item; Caption: "America/Bogota"; Action: multi; Actions: 7.1.9time_America/Bogota
+Type: item; Caption: "America/Boise"; Action: multi; Actions: 7.1.9time_America/Boise
+Type: item; Caption: "America/Cambridge_Bay"; Action: multi; Actions: 7.1.9time_America/Cambridge_Bay
+Type: item; Caption: "America/Campo_Grande"; Action: multi; Actions: 7.1.9time_America/Campo_Grande
+Type: item; Caption: "America/Cancun"; Action: multi; Actions: 7.1.9time_America/Cancun
+Type: item; Caption: "America/Caracas"; Action: multi; Actions: 7.1.9time_America/Caracas
+Type: item; Caption: "America/Cayenne"; Action: multi; Actions: 7.1.9time_America/Cayenne
+Type: item; Caption: "America/Cayman"; Action: multi; Actions: 7.1.9time_America/Cayman
+Type: item; Caption: "America/Chicago"; Action: multi; Actions: 7.1.9time_America/Chicago
+Type: item; Caption: "America/Chihuahua"; Action: multi; Actions: 7.1.9time_America/Chihuahua
+Type: item; Caption: "America/Costa_Rica"; Action: multi; Actions: 7.1.9time_America/Costa_Rica
+Type: item; Caption: "America/Creston"; Action: multi; Actions: 7.1.9time_America/Creston
+Type: item; Caption: "America/Cuiaba"; Action: multi; Actions: 7.1.9time_America/Cuiaba
+Type: item; Caption: "America/Curacao"; Action: multi; Actions: 7.1.9time_America/Curacao
+Type: item; Caption: "America/Danmarkshavn"; Action: multi; Actions: 7.1.9time_America/Danmarkshavn
+Type: item; Caption: "America/Dawson"; Action: multi; Actions: 7.1.9time_America/Dawson
+Type: item; Caption: "America/Dawson_Creek"; Action: multi; Actions: 7.1.9time_America/Dawson_Creek
+Type: item; Caption: "America/Denver"; Action: multi; Actions: 7.1.9time_America/Denver
+Type: item; Caption: "America/Detroit"; Action: multi; Actions: 7.1.9time_America/Detroit
+Type: item; Caption: "America/Dominica"; Action: multi; Actions: 7.1.9time_America/Dominica
+Type: item; Caption: "America/Edmonton"; Action: multi; Actions: 7.1.9time_America/Edmonton
+Type: item; Caption: "America/Eirunepe"; Action: multi; Actions: 7.1.9time_America/Eirunepe
+Type: item; Caption: "America/El_Salvador"; Action: multi; Actions: 7.1.9time_America/El_Salvador
+Type: item; Caption: "America/Fort_Nelson"; Action: multi; Actions: 7.1.9time_America/Fort_Nelson
+Type: item; Caption: "America/Fortaleza"; Action: multi; Actions: 7.1.9time_America/Fortaleza
+Type: item; Caption: "America/Glace_Bay"; Action: multi; Actions: 7.1.9time_America/Glace_Bay
+Type: item; Caption: "America/Godthab"; Action: multi; Actions: 7.1.9time_America/Godthab
+Type: item; Caption: "America/Goose_Bay"; Action: multi; Actions: 7.1.9time_America/Goose_Bay
+Type: item; Caption: "America/Grand_Turk"; Action: mu

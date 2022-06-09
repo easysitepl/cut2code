@@ -1,0 +1,15 @@
+s, and notes"; Action: multi; Actions: log_error_verbosity3
+
+[log_error_verbosity1]
+Action: service; Service: wampmysqld64; ServiceAction: stop; Flags: waituntilterminated
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changeMysqlParam.php noquotes log_error_verbosity 1";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: mysql_refresh_start; Flags:appendsection
+
+[log_error_verbosity3]
+Action: service; Service: wampmysqld64; ServiceAction: stop; Flags: waituntilterminated
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changeMysqlParam.php noquotes log_error_verbosity 3";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: mysql_refresh_start; Flags:appendsection
+
+[max_allowed_packet]
+Type: separator; Caption: "Size"
+Type: item;

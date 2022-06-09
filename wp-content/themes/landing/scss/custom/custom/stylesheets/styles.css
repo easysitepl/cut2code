@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+/* line 1, ../sass/styles.scss */
+h2 {
+  font-size: 60px !important;
+  line-height: 72px !important;
+  font-family: 'Roboto',sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* line 8, ../sass/styles.scss */
+.banner {
+  padding-top: 20px;
+  background-color: #FF4363;
+  position: relative;
+  z-index: 2;
+}
+/* line 14, ../sass/styles.scss */
+.banner nav {
+  background-color: transparent !important;
+}
+/* line 16, ../sass/styles.scss */
+.banner nav a {
+  color: #fff;
+  font-size: 30px;
+}
+/* line 23, ../sass/styles.scss */
+.banner .overflowhidden {
+  position: relative;
+  overflow: hidden;
+}
+/* line 27, ../sass/styles.scss */
+.banner .overflowhidden img {
+  margin-bottom: -40px;
+}
+/* line 31, ../sass/styles.scss */
+.banner h1 {
+  color: #fff;
+  font-size: 82px;
+  line-height: 98px;
+}
+/* line 36, ../sass/styles.scss */
+.banner p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+}
+/* line 42, ../sass/styles.scss */
+.banner .btn-white {
+  background-color: #fff;
+  color: #FF4363;
+  border: none;
+  border-radius: 35px;
+  padding: 20px;
+}
+/* line 50, ../sass/styles.scss */
+.banner .btn-video {
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 35px;
+  padding: 20px;
+}
+/* line 57, ../sass/styles.scss */
+.banner .btn-video img {
+  margin-right: 10px;
+}
+
+/* line 63, ../sass/styles.scss */
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+/* line 67, ../sass/styles.scss */
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+/* line 77, ../sass/styles.scss */
+#hamburger-input {
+  display: none;
+}
+
+/* line 81, ../sass/styles.scss */
+#hamburger-menu {
+  float: right;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  display: block !important;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Cabin', Sans-serif;
+  background: linear-gradient(to bottom, #fff, #fff 20%, #FF4363 20%, #FF4363 40%, #fff 40%, #fff 60%, #FF4363 60%, #FF4363 80%, #fff 80%, #fff 100%);
+}
+
+/* line 102, ../sass/styles.scss */
+#hamburger-menu #sidebar-menu {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: #fff;
+  transition: 0.3s;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+/* line 115, ../sass/styles.scss */
+#hamburger-menu h3 {
+  color: #B9FAF8;
+  font-size: 2.2rem;
+}
+
+/* line 120, ../sass/styles.scss */
+#hamburger-menu ul {
+  padding-left: 0px;
+}
+
+/* line 124, ../sass/styles.scss */
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+/* line 129, ../sass/styles.scss */
+#hamburger-menu a {
+  color: #000;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+/* line 135, ../sass/styles.scss */
+#hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+/* line 139, ../sass/styles.scss */
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+  visibility: visible;
+  right: 0;
+}
+
+/* line 143, ../sass/styles.scss */
+#hamburger-input:checked ~ .overlay {
+  visibility: visible;
+  opacity: 0.4;
+}
+
+@media screen and (min-width: 0px) {
+  /* line 150, ../sass/styles.scss */
+  #main-menu {
+    display: none;
+  }
+
+  /* line 153, ../sass/styles.scss */
+  #hamburger-menu {
+    display: inline;
+  }
+}
+/* line 158, ../sass/styles.scss */
+#offer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fcfcfc;
+}
+/* line 163, ../sass/styles.scss */
+#offer h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+  font-size: 24px;
+}
+/* line 170, ../sass/styles.scss */
+#offer p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 48px;
+  color: #666666;
+}
+/* line 178, ../sass/styles.scss */
+#offer .bg-light {
+  padding-top: 70px !important;
+  background: #fff !important;
+  box-shadow: 0px 0px 59px #00000015;
+  border-radius: 6px;
+}
+/* line 184, ../sass/styles.scss */
+#offer .bg-light .circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-color: #FFF4F5;
+  opacity: 1;
+}
+/* line 191, ../sass/styles.scss */
+#offer .bg-light .circle img {
+  margin-top: 10px;
+}
+
+/* line 198, ../sass/styles.scss */
+#app {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fcfcfc;
+}
+/* line 202, ../sass/styles.scss */
+#app .pencil {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/* line 206, ../sass/styles.scss */
+#app h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 211, ../sass/styles.scss */
+#app p {
+  font-family: 'Poppins', sans-serif;
+  color: #666666;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+/* line 220, ../sass/styles.scss */
+#app ul {
+  list-style: none !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+/* line 228, ../sass/styles.scss */
+#app ul li {
+  color: #222222;
+  line-height: 48px;
+}
+/* line 232, ../sass/styles.scss */
+#app ul li:before {
+  content: "\2022";
+  color: #FF7588;
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
+
+/* line 245, ../sass/styles.scss */
+#faq {
+  padding-bottom: 60px;
+  background-color: #fcfcfc;
+}
+/* line 248, ../sass/styles.scss */
+#faq .pencil {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/* line 252, ../sass/styles.scss */
+#faq h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 258, ../sass/styles.scss */
+#faq p {
+  margin-bottom: 30px;
+}
+/* line 262, ../sass/styles.scss */
+#faq button {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #FF7588;
+}
+/* line 269, ../sass/styles.scss */
+#faq .accordion-body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+}
+/* line 277, ../sass/styles.scss */
+#faq .accordion-item {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* line 283, ../sass/styles.scss */
+#licznik {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fcfcfc !important;
+}
+/* line 289, ../sass/styles.scss */
+#licznik .col-md-3 {
+  background-color: #FF4363;
+}
+/* line 294, ../sass/styles.scss */
+#licznik .counter-box {
+  background-color: #FF4363;
+  display: block;
+  background: #f6f6f6;
+  padding: 40px 20px 37px;
+  text-align: center;
+}
+/* line 302, ../sass/styles.scss */
+#licznik .counter-box p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: 5px 0 0;
+  padding: 0;
+  color: #909090;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* line 312, ../sass/styles.scss */
+#licznik .counter-box i {
+  font-size: 60px;
+  margin: 0 0 15px;
+  color: #d2d2d2;
+}
+/* line 318, ../sass/styles.scss */
+#licznik .counter {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FF4363;
+  display: block;
+  font-size: 60px;
+  font-weight: 700;
+  color: #666;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+/* line 329, ../sass/styles.scss */
+#licznik .counter-box.colored {
+  background-color: #FF4363;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+/* line 335, ../sass/styles.scss */
+#licznik .counter-box.colored p,
+#licznik .counter-box.colored i,
+#licznik .counter-box.colored .counter {
+  color: #fff;
+}
+
+/* line 342, ../sass/styles.scss */
+#contact-us {
+  background-color: #fcfcfc !important;
+  padding-bottom: 60px;
+}
+/* line 346, ../sass/styles.scss */
+#contact-us p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #666666;
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+/* line 357, ../sass/styles.scss */
+footer {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  background: #000000;
+  color: #fff;
+}
+
+/* line 366, ../sass/styles.scss */
+.btn-pink {
+  background-color: #FF4363 !important;
+  border: none !important;
+  border-radius: 35px !important;
+  padding: 15px 30px !important;
+}
+
+/* line 376, ../sass/styles.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* line 380, ../sass/styles.scss */
+body {
+  color: #e0e4cc;
+  font-size: 1.2em;
+  line-height: 1.6;
+  background: #fa6900;
+  overflow-x: hidden;
+}
+
+/* line 388, ../sass/styles.scss */
+label .menu {
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  background: #FFF;
+  border-radius: 50% 50% 50% 50%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+  cursor: pointer;
+  color: #000;
+}
+
+/* line 404, ../sass/styles.scss */
+label .hamburger {
+  position: absolute;
+  top: 135px;
+  left: 50px;
+  width: 30px;
+  height: 2px;
+  background: #69D2e7;
+  display: block;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* line 418, ../sass/styles.scss */
+label .hamburger:after, label .hamburger:before {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #69d2e7;
+}
+
+/* line 429, ../sass/styles.scss */
+label .hamburger:before {
+  top: -10px;
+}
+
+/* line 431, ../sass/styles.scss */
+label .hamburger:after {
+  bottom: -10px;
+}
+
+/* line 433, ../sass/styles.scss */
+label input {
+  display: none;
+}
+
+/* line 435, ../sass/styles.scss */
+label input:checked + .menu {
+  box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+  border-radius: 0;
+}
+
+/* line 441, ../sass/styles.scss */
+label input:checked + .menu .hamburger {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 447, ../sass/styles.scss */
+label input:checked + .menu .hamburger:after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+/* line 454, ../sass/styles.scss */
+label input:checked + .menu .hamburger:before {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0;
+}
+
+/* line 461, ../sass/styles.scss */
+label input:checked + .menu + ul {
+  opacity: 1;
+}
+
+/* line 463, ../sass/styles.scss */
+label ul {
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: .25s 0s ease-in-out;
+  transition: .25s 0s ease-in-out;
+}
+/* line 474, ../sass/styles.scss */
+label ul li {
+  color: #000 !important;
+}
+
+/* line 479, ../sass/styles.scss */
+label a {
+  margin-bottom: 1em;
+  display: block;
+  color: #000 !important;
+  text-decoration: none;
+}

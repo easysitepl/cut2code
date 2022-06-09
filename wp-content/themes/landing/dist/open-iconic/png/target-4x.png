@@ -1,0 +1,13 @@
+pts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[apacheCompareVersion]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchWampParam.php apacheCompareVersion on";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[apachePhpCurlDll]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchWampParam.php apachePhpCurlDll on";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[apacheGracefulRestart]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchWampParam.php apacheGracefulRestart off";WorkingDir: "d:/wamp64/scrip

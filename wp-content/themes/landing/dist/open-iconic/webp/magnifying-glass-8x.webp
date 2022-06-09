@@ -1,0 +1,11 @@
+lias_module
+Type: item; Caption: "watchdog_module"; Action: multi; Actions: apache_mod_watchdog_module
+Type: item; Caption: "xml2enc_module"; Action: multi; Actions: apache_mod_xml2enc_module
+Type: separator; Caption: "Irreversible module"
+Type: item; Caption: "authz_core_module #13 authz_host_module #13 php7_module"; Action: none
+Type: item; Caption: "These modules should not be disabled"; Action: none; Glyph: 22
+Type: separator; Caption: "Built-in modules"
+Type: item; Caption: "core #13 http_core #13 mod_so #13 mod_win32 #13 mpm_winnt"; Action: none
+Type: item; Caption: "Do not require <IfModule ModName>."; Action: none; Glyph: 22
+[apache_mod_access_compat_module]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchApacheMod.php access_co

@@ -1,0 +1,13 @@
+ waituntilterminated
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changeMysqlParam.php noquotes innodb_log_file_size 4M";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: mysql_refresh_start; Flags:appendsection
+
+[innodb_log_file_size8M]
+Action: service; Service: wampmysqld64; ServiceAction: stop; Flags: waituntilterminated
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changeMysqlParam.php noquotes innodb_log_file_size 8M";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: mysql_refresh_start; Flags:appendsection
+
+[innodb_log_file_size16M]
+Action: service; Service: wampmysqld64; ServiceAction: stop; Flags: waituntilterminated
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changeMysqlParam.php noquotes innodb_log_file_size 16M";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: mysql_refres

@@ -1,0 +1,16 @@
+ Caption: "sql_mode -> user mode"; Action: multi; Actions: sql_modeusermariadb
+Type: item; Caption: "sql_mode -> none"; Action: multi; Actions: sql_modenonemariadb
+
+[sql_modeusermariadb]
+Action: service; Service: wampmariadb64; ServiceAction: stop; Flags: waituntilterminated
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "changeMariadbParam.php noquotes sql_mode user";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: mariadb_refresh_start; Flags:appendsection
+
+[sql_modenonemariadb]
+Action: service; Service: wampmariadb64; ServiceAction: stop; Flags: waituntilterminated
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "changeMariadbParam.php noquotes sql_mode none";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: mariadb_refresh_start; Flags:appendsection
+
+[maria_sort_buffer_size]
+Type: separator; Caption: "Size"
+Type: item; Caption: "4M"; Action: multi; Actions: maria_sort_b

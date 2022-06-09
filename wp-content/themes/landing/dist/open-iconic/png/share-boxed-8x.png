@@ -1,0 +1,12 @@
+ogle/Chrome/Application/chrome.exe"; Parameters: "https://sourceforge.net/projects/wampserver/files/WampServer%203/WampServer%203.0.0/"; Glyph: 5
+Type: item; Caption: "Go to: https://wampserver.aviatechno.net/"; Action: run; FileName: "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"; Parameters: "https://wampserver.aviatechno.net/?lang=english"; Glyph: 5
+
+[wampreload]
+;WAMPRELOADSTART
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpVersion.php 7.1.9";WorkingDir: "d:/wamp64/scripts"; ShowCmd: hidden; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+;WAMPRELOADEND
+
+[language]
+;WAMPLANGUAGESTART
+Type: separator; Caption: "Jezyk"

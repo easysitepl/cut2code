@@ -1,0 +1,486 @@
+h2{
+	font-size: 60px !important;
+	line-height: 72px !important;
+	font-family: 'Roboto',sans-serif !important;
+	font-weight: 600 !important;
+}
+
+.banner{
+	padding-top: 20px;
+	background-color: #FF4363;
+	position: relative;
+	z-index: 2;
+
+	nav{
+		background-color: transparent !important;
+		a{
+			color: #fff;
+			font-size: 30px;
+		}
+	}
+
+
+	.overflowhidden{
+		position: relative;
+		overflow: hidden;
+
+		img{
+		margin-bottom: -40px;
+		}
+	}
+	h1{
+		color: #fff;
+		font-size: 82px;
+		line-height: 98px;
+	}
+	p{
+		color: #fff;
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.btn-white{
+		background-color: #fff;
+		color: #FF4363;
+		border: none;
+		border-radius: 35px;
+		padding: 20px;
+	}
+
+	.btn-video{
+		background: transparent;
+		color: #fff;
+		border: none;
+		border-radius: 35px;
+		padding: 20px;
+
+		img{
+			margin-right: 10px;
+		}
+	}
+}
+
+.align-items-center {
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+
+
+#hamburger-input{
+  display: none;
+}
+
+#hamburger-menu {
+	float: right;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block !important;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cabin', Sans-serif;
+    background: linear-gradient(
+      to bottom, 
+      #fff, #fff 20%, 
+      #FF4363 20%, #FF4363 40%, 
+      #fff 40%, #fff 60%, 
+      #FF4363 60%, #FF4363 80%, 
+      #fff 80%, #fff 100%
+    );
+}
+
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+#hamburger-menu h3 {
+  color: #B9FAF8;
+  font-size: 2.2rem;
+}
+
+#hamburger-menu ul {
+  padding-left: 0px;
+}
+
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-menu a {
+  color: #000;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    right: 0;
+}
+#hamburger-input:checked ~ .overlay{
+   visibility: visible;
+  opacity: 0.4;
+}
+
+
+@media screen and (min-width: 0px) {
+  #main-menu {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
+}
+
+#offer{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #fcfcfc;
+
+	h3{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		margin-top: 30px;
+		font-size: 24px;
+	}
+
+	p{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 48px;
+		color: #666666;
+	}
+
+	.bg-light{
+		padding-top: 70px !important;
+		background: #fff !important;
+		box-shadow: 0px 0px 59px #00000015;
+		border-radius: 6px;
+
+		.circle{
+			width: 60px;
+			height: 60px;
+			border-radius: 60px;
+			background-color: #FFF4F5;
+			opacity: 1;
+
+			img{
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+#app{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #fcfcfc;
+	.pencil{
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	h2{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	p{
+		font-family: 'Poppins', sans-serif;
+		color: #666666;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 30px;
+	}
+
+	ul{
+		list-style: none !important; 
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 48px;
+		margin-bottom: 30px;
+
+		li{
+			color: #222222;
+			line-height: 48px;
+
+			&:before{
+			  content: "\2022"; 
+			  color: #FF7588;
+			  font-weight: bold; /* If you want it to be bold */
+			  display: inline-block; /* Needed to add space between the bullet and the text */
+			  width: 1em; /* Also needed for space (tweak if needed) */
+			  margin-left: -1em; /* Also needed for space (tweak if needed) */
+			}
+		}
+	}
+}
+
+
+#faq{
+	padding-bottom: 60px;
+	background-color: #fcfcfc;
+	.pencil{
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	h1{
+		font-size: 60px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	p{
+		margin-bottom: 30px;
+	}
+
+	button{
+		font-size: 24px;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		color: #FF7588;
+	}
+
+	.accordion-body{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 28px;
+		color: #666666;
+	}
+
+	.accordion-item{
+		background: transparent !important;
+		border: none !important;
+	}
+}
+
+#licznik{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #fcfcfc !important;
+
+
+	.col-md-3{
+		background-color: #FF4363;
+
+	}
+
+	.counter-box {
+	background-color: #FF4363;
+	display: block;
+	background: #f6f6f6;
+	padding: 40px 20px 37px;
+	text-align: center
+}
+
+.counter-box p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	margin: 5px 0 0;
+	padding: 0;
+	color: #909090;
+	font-size: 18px;
+	font-weight: 500
+}
+
+.counter-box i {
+	font-size: 60px;
+	margin: 0 0 15px;
+	color: #d2d2d2
+}
+
+.counter { 
+	font-family: 'Roboto', sans-serif;
+	background-color: #FF4363;
+	display: block;
+	font-size: 60px;
+	font-weight: 700;
+	color: #666;
+	line-height: 28px;
+	margin-bottom: 30px;	
+}
+
+.counter-box.colored {
+ 	background-color: #FF4363;
+ 	padding-top: 90px;
+ 	padding-bottom: 90px;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+	color: #fff
+}
+}
+
+#contact-us{
+	background-color: #fcfcfc !important;
+	padding-bottom: 60px;
+
+	p{
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		color: #666666;
+		font-size: 18px;
+		line-height: 30px;
+		padding-top: 22px;
+		padding-bottom: 22px;
+	}
+}
+
+footer{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	padding-top: 29px;
+	padding-bottom: 29px;
+	background: #000000;
+	color: #fff;
+}
+
+.btn-pink{
+	background-color: #FF4363 !important;
+	border: none !important;
+	border-radius: 35px !important;
+	padding: 15px 30px !important;
+}
+
+
+
+
+*, *:before, *:after 
+{ box-sizing: border-box; }
+
+
+body {
+  color: #e0e4cc;
+  font-size: 1.2em;
+  line-height: 1.6;
+  background: #fa6900;
+  overflow-x: hidden;
+}
+
+label .menu {
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  background: #FFF;
+  border-radius: 50% 50% 50% 50%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+  cursor: pointer;
+  color: #000;
+}
+
+label .hamburger {
+  position: absolute;
+  top: 135px;
+  left: 50px;
+  width: 30px;
+  height: 2px;
+  background: #69D2e7;
+  display: block;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+label .hamburger:after, label .hamburger:before {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #69d2e7;
+}
+
+label .hamburger:before { top: -10px; }
+
+label .hamburger:after { bottom: -10px; }
+
+label input { display: none; }
+
+label input:checked + .menu {
+  box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+  border-radius: 0;
+  
+}
+
+label input:checked + .menu .hamburger {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  
+}
+
+label input:checked + .menu .hamburger:after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  bottom: 0;
+  
+}
+
+label input:checked + .menu .hamburger:before {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0;
+  
+}
+
+label input:checked + .menu + ul { opacity: 1; }
+
+label ul {
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: .25s 0s ease-in-out;
+  transition: .25s 0s ease-in-out;
+
+  li{
+  	color: #000 !important;
+  }
+}
+
+label a {
+  margin-bottom: 1em;
+  display: block;
+    	color: #000 !important;
+
+  text-decoration: none;
+  
+}

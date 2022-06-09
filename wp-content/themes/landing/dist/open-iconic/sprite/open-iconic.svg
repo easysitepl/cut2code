@@ -1,0 +1,617 @@
+rs: "changePhpParam.php quotes date.timezone America/Argentina/San_Luis none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Argentina/Tucuman]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Argentina/Tucuman none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Argentina/Ushuaia]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Argentina/Ushuaia none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Aruba]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Aruba none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Asuncion]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Asuncion none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Atikokan]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Atikokan none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Bahia]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Bahia none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Bahia_Banderas]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Bahia_Banderas none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Barbados]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Barbados none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Belem]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Belem none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Belize]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Belize none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Blanc-Sablon]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Blanc-Sablon none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Boa_Vista]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Boa_Vista none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Bogota]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Bogota none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Boise]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Boise none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Cambridge_Bay]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Cambridge_Bay none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Campo_Grande]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Campo_Grande none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Cancun]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Cancun none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Caracas]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Caracas none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Cayenne]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Cayenne none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Cayman]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Cayman none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Chicago]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Chicago none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Chihuahua]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Chihuahua none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Costa_Rica]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Costa_Rica none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Creston]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Creston none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Cuiaba]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Cuiaba none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Curacao]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Curacao none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Danmarkshavn]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Danmarkshavn none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Dawson]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Dawson none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Dawson_Creek]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Dawson_Creek none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Denver]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Denver none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Detroit]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Detroit none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Dominica]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Dominica none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Edmonton]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Edmonton none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Eirunepe]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Eirunepe none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/El_Salvador]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/El_Salvador none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Fort_Nelson]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Fort_Nelson none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Fortaleza]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Fortaleza none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Glace_Bay]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Glace_Bay none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Godthab]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Godthab none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Goose_Bay]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Goose_Bay none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Grand_Turk]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Grand_Turk none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Grenada]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Grenada none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Guadeloupe]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Guadeloupe none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Guatemala]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Guatemala none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Guayaquil]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Guayaquil none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Guyana]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Guyana none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Halifax]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Halifax none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Havana]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Havana none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Hermosillo]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Hermosillo none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Indiana/Indianapolis]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Indiana/Indianapolis none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Indiana/Knox]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Indiana/Knox none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Indiana/Marengo]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Indiana/Marengo none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Indiana/Petersburg]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Indiana/Petersburg none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Indiana/Tell_City]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Indiana/Tell_City none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Indiana/Vevay]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Indiana/Vevay none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Indiana/Vincennes]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Indiana/Vincennes none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Indiana/Winamac]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Indiana/Winamac none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Inuvik]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Inuvik none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Iqaluit]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Iqaluit none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Jamaica]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Jamaica none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Juneau]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Juneau none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Kentucky/Louisville]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Kentucky/Louisville none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Kentucky/Monticello]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Kentucky/Monticello none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Kralendijk]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Kralendijk none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/La_Paz]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/La_Paz none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Lima]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Lima none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Los_Angeles]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Los_Angeles none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Lower_Princes]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Lower_Princes none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Maceio]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Maceio none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Managua]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Managua none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Manaus]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Manaus none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Marigot]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Marigot none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Martinique]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Martinique none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Matamoros]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Matamoros none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Mazatlan]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Mazatlan none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Menominee]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Menominee none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Merida]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Merida none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Metlakatla]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Metlakatla none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Mexico_City]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Mexico_City none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Miquelon]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Miquelon none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Moncton]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Moncton none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Monterrey]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Monterrey none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Montevideo]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Montevideo none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Montserrat]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Montserrat none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Nassau]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Nassau none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/New_York]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/New_York none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Nipigon]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Nipigon none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Nome]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Nome none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Noronha]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Noronha none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/North_Dakota/Beulah]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/North_Dakota/Beulah none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/North_Dakota/Center]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/North_Dakota/Center none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/North_Dakota/New_Salem]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/North_Dakota/New_Salem none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Ojinaga]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Ojinaga none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Panama]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Panama none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Pangnirtung]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Pangnirtung none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Paramaribo]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Paramaribo none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Phoenix]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Phoenix none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Port-au-Prince]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Port-au-Prince none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Port_of_Spain]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Port_of_Spain none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Porto_Velho]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Porto_Velho none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Puerto_Rico]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Puerto_Rico none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Rainy_River]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Rainy_River none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Rankin_Inlet]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Rankin_Inlet none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Recife]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Recife none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Regina]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Regina none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Resolute]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Resolute none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Rio_Branco]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Rio_Branco none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Santarem]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Santarem none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Santiago]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Santiago none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Santo_Domingo]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Santo_Domingo none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Sao_Paulo]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Sao_Paulo none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Scoresbysund]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Scoresbysund none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Sitka]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Sitka none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/St_Barthelemy]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/St_Barthelemy none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/St_Johns]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/St_Johns none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/St_Kitts]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/St_Kitts none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/St_Lucia]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/St_Lucia none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/St_Thomas]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/St_Thomas none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/St_Vincent]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/St_Vincent none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Swift_Current]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Swift_Current none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Tegucigalpa]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Tegucigalpa none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Thule]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Thule none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Thunder_Bay]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Thunder_Bay none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Tijuana]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Tijuana none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Toronto]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Toronto none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Tortola]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Tortola none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Vancouver]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Vancouver none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Whitehorse]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Whitehorse none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Winnipeg]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Winnipeg none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Yakutat]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Yakutat none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_America/Yellowknife]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone America/Yellowknife none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/Casey]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/Casey none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/Davis]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/Davis none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/DumontDUrville]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/DumontDUrville none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/Macquarie]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/Macquarie none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/Mawson]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/Mawson none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/McMurdo]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/McMurdo none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/Palmer]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/Palmer none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/Rothera]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/Rothera none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/Syowa]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/Syowa none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/Troll]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/Troll none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Antarctica/Vostok]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Antarctica/Vostok none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Arctic/Longyearbyen]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Arctic/Longyearbyen none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Aden]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Aden none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Almaty]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Almaty none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Amman]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Amman none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Anadyr]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Anadyr none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Aqtau]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Aqtau none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Aqtobe]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Aqtobe none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Ashgabat]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Ashgabat none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Atyrau]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Atyrau none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Baghdad]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Baghdad none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Bahrain]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "changePhpParam.php quotes date.timezone Asia/Bahrain none 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: multi; Actions: apache_restart_refresh; Flags:appendsection
+
+[7.1.9time_Asia/Baku]
+Action: run; FileName: "d:/wamp64/bin/php/ph

@@ -1,0 +1,16 @@
+ction: none; Glyph: 23
+
+[apachecompare-help]
+Type: item; Caption: "Warning Apache settings comparison"; Action: none; Glyph: 23
+
+[refresh-restart-help]
+Type: item; Caption: "Help Odswiez - Restart from zero"; Action: none; Glyph: 22
+
+[apacheMenu]
+;WAMPAPACHEMENUSTART
+Type: separator; Caption: "Apache 2.4.27"
+Type: submenu; Caption: "Version"; SubMenu: apacheVersion; Glyph: 3
+Type: servicesubmenu; Caption: "Service administration 'wampapache64'"; Service: wampapache64; SubMenu: apacheService
+Type: submenu; Caption: "Apache settings"; SubMenu: apache_params; Glyph: 25
+Type: submenu; Caption: "Moduly Apache"; SubMenu: apache_mod; Glyph: 4
+Type: submenu; Caption: "Apache Tools"; Submenu: ApacheTools; G

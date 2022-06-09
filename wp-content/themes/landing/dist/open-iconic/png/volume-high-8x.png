@@ -1,0 +1,11 @@
+mysql/mysql5.7.19/data"; Action: multi; Actions: datadir
+Type: item; Caption: "lc_messages = en_US"; Action: multi; Actions: lc_messages
+Type: item; Caption: "prompt = default"; Action: multi; Actions: prompt
+Type: item; Caption: "table_definition_cache = 600"; Action: multi; Actions: table_definition_cache
+Type: item; Caption: "secure_file_priv = d:/wamp64/tmp"; Action: multi; Actions: secure_file_priv
+
+[basedir]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 YmFzZWRpcg== CgpUaGlzIHNldHRpbmcgc2hvdWxkIG5vdCBiZSBjaGFuZ2VkLCBvdGhlcndpc2UgeW91IHJpc2sgbG9zaW5nIHlvdXIgZXhpc3RpbmcgZGF0YWJhc2VzLgoK";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+
+[datadir]
+Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "msg.php 6 ZGF0YWRpcg== CgpUaGlzIHNldHRpbmcgc2hvdWxkIG5vdCBiZSBjaGFuZ2VkLCBvdGhlcndpc2UgeW91IHJpc2sgbG9zaW5nIHlvdXIgZXhpc3RpbmcgZGF0YWJhc2VzLgoK";WorkingDir:

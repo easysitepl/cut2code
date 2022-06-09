@@ -1,0 +1,6 @@
+ port Apache"; Submenu: DeleteListenPort; Glyph: 26
+Type: item; Caption: "Testuj Port 80"; Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe"; Parameters: "testPort.php 80 wampapache64";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated; Glyph: 24
+Type: item; Caption: "Use a port other than 80"; Action: multi; Actions: UseAlternatePort; Glyph: 24
+;Type: item; Caption: "Test port used: 80"; Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe"; Parameters: "testPort.php 80 wampapache64";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated; Glyph: 24
+Type: separator; Caption: "Default DBMS: MySQL 5.7.19"
+;Type: item; Caption: "Invert default DBMS MariaDB <-> MySQL"; Action: multi; Actions: SwitchMaria

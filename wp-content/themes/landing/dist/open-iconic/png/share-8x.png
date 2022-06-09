@@ -1,0 +1,19 @@
+mp64/bin/php/php5.6.31/php-win.exe"; Parameters: "refresh.php";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
+Action: resetservices
+Action: readconfig
+Action: service; Service: wampapache64; ServiceAction: startresume; Flags: ignoreerrors waituntilterminated
+Action: service; Service: wampmysqld64; ServiceAction: startresume; Flags: ignoreerrors waituntilterminated
+Action: service; Service: wampmariadb64; ServiceAction: startresume; Flags: ignoreerrors waituntilterminated
+;Action: run; FileName: "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"; Parameters: "http://localhost/"; ShowCmd: normal; Flags: ignoreerrors
+;WAMPSTARTUPACTIONEND
+
+[Menu.Left.Settings]
+;WAMPMENULEFTSETTINGSSTART
+AutoHotkeys=0
+AutoLineReduction=no
+BarVisible=yes
+BarCaptionAlignment=bottom
+BarCaptionCaption=WAMPSERVER 3.2.9
+BarCaptionDepth=1
+BarCaptionDirection=downtoup
+BarCaptionFon
