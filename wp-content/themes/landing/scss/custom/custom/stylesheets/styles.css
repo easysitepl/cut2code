@@ -311,6 +311,11 @@ footer {
 }
 
 /* line 294, ../sass/styles.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 299, ../sass/styles.scss */
 label .menu {
   position: absolute;
   right: -100px;
@@ -327,7 +332,7 @@ label .menu {
   color: #000;
 }
 
-/* line 310, ../sass/styles.scss */
+/* line 315, ../sass/styles.scss */
 label .hamburger {
   position: absolute;
   top: 135px;
@@ -342,7 +347,7 @@ label .hamburger {
   transition: .5s ease-in-out;
 }
 
-/* line 324, ../sass/styles.scss */
+/* line 329, ../sass/styles.scss */
 label .hamburger:after, label .hamburger:before {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
@@ -354,53 +359,53 @@ label .hamburger:after, label .hamburger:before {
   background: #000;
 }
 
-/* line 335, ../sass/styles.scss */
+/* line 340, ../sass/styles.scss */
 label .hamburger:before {
   top: -10px;
 }
 
-/* line 337, ../sass/styles.scss */
+/* line 342, ../sass/styles.scss */
 label .hamburger:after {
   bottom: -10px;
 }
 
-/* line 339, ../sass/styles.scss */
+/* line 344, ../sass/styles.scss */
 label input {
   display: none;
 }
 
-/* line 341, ../sass/styles.scss */
+/* line 346, ../sass/styles.scss */
 label input:checked + .menu {
   box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
   border-radius: 0;
 }
 
-/* line 347, ../sass/styles.scss */
+/* line 352, ../sass/styles.scss */
 label input:checked + .menu .hamburger {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-/* line 353, ../sass/styles.scss */
+/* line 358, ../sass/styles.scss */
 label input:checked + .menu .hamburger:after {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   bottom: 0;
 }
 
-/* line 360, ../sass/styles.scss */
+/* line 365, ../sass/styles.scss */
 label input:checked + .menu .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
 }
 
-/* line 367, ../sass/styles.scss */
+/* line 372, ../sass/styles.scss */
 label input:checked + .menu + ul {
   opacity: 1;
 }
 
-/* line 369, ../sass/styles.scss */
+/* line 374, ../sass/styles.scss */
 label ul {
   z-index: 200;
   position: absolute;
@@ -412,12 +417,12 @@ label ul {
   -webkit-transition: .25s 0s ease-in-out;
   transition: .25s 0s ease-in-out;
 }
-/* line 380, ../sass/styles.scss */
+/* line 385, ../sass/styles.scss */
 label ul li {
   color: #000 !important;
 }
 
-/* line 385, ../sass/styles.scss */
+/* line 390, ../sass/styles.scss */
 label a {
   margin-bottom: 1em;
   display: block;
