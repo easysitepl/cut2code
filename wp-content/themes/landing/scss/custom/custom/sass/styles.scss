@@ -69,92 +69,6 @@ h2{
   display: flex!important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-
-
-
-
-#hamburger-input{
-  display: none;
-}
-
-#hamburger-menu {
-	float: right;
-    top: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-    display: block !important;
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Cabin', Sans-serif;
-    background: linear-gradient(
-      to bottom, 
-      #fff, #fff 20%, 
-      #FF4363 20%, #FF4363 40%, 
-      #fff 40%, #fff 60%, 
-      #FF4363 60%, #FF4363 80%, 
-      #fff 80%, #fff 100%
-    );
-}
-
-#hamburger-menu #sidebar-menu {
-    visibility: hidden;
-    position: fixed;
-    top: 0;
-    right: -250px;
-    width: 200px;
-    height: 100%;
-    background-color: #fff;
-    transition: 0.3s;
-    padding: 0px 10px;
-    box-sizing: border-box;
-}
-
-#hamburger-menu h3 {
-  color: #B9FAF8;
-  font-size: 2.2rem;
-}
-
-#hamburger-menu ul {
-  padding-left: 0px;
-}
-
-#hamburger-menu li {
-  list-style-type: none;
-  line-height: 3rem;
-}
-
-#hamburger-menu a {
-  color: #000;
-  font-size: 1.3rem;
-  text-decoration: none;
-}
-
-#hamburger-menu a:hover {
-  text-decoration: underline;
-}
-
-#hamburger-input:checked + #hamburger-menu #sidebar-menu {
-    visibility: visible;
-    right: 0;
-}
-#hamburger-input:checked ~ .overlay{
-   visibility: visible;
-  opacity: 0.4;
-}
-
-
-@media screen and (min-width: 0px) {
-  #main-menu {
-    display: none;
-  }
-  #hamburger-menu {
-    display: inline;
-  }
-}
-
 #offer{
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -289,6 +203,7 @@ h2{
 	.col-md-3{
 		background-color: #FF4363;
 
+
 	}
 
 	.counter-box {
@@ -330,6 +245,11 @@ h2{
  	background-color: #FF4363;
  	padding-top: 90px;
  	padding-bottom: 90px;
+
+ 	@media all and (max-width: 768px){
+ 		padding-top: 40px;
+ 		padding-bottom: 40px;
+		}
 }
 
 .counter-box.colored p,
@@ -371,20 +291,6 @@ footer{
 }
 
 
-
-
-*, *:before, *:after 
-{ box-sizing: border-box; }
-
-
-body {
-  color: #e0e4cc;
-  font-size: 1.2em;
-  line-height: 1.6;
-  background: #fa6900;
-  overflow-x: hidden;
-}
-
 label .menu {
   position: absolute;
   right: -100px;
@@ -407,7 +313,7 @@ label .hamburger {
   left: 50px;
   width: 30px;
   height: 2px;
-  background: #69D2e7;
+  background: #000;
   display: block;
   -webkit-transform-origin: center;
   transform-origin: center;
@@ -423,7 +329,7 @@ label .hamburger:after, label .hamburger:before {
   display: block;
   width: 100%;
   height: 100%;
-  background: #69d2e7;
+  background: #000;
 }
 
 label .hamburger:before { top: -10px; }

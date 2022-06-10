@@ -67,18 +67,17 @@
         </div>
 
         <div class="col-md-6">
-         <input type="checkbox" id="hamburger-input" class="burger-shower" />
           <label>
-<input type="checkbox">
-<span class="menu"> <span class="hamburger"></span> </span>
-<ul>
-  <li> <a href="#">Home</a> </li>
-  <li> <a href="#">About</a> </li>
-  <li> <a href="#">Offer</a> </li>
-  <li> <a href="#">FAQ</a> </li>
-  <li> <a href="#">Contact</a> </li>
-</ul>
-</label>
+            <input type="checkbox">
+            <span class="menu"> <span class="hamburger"></span> </span>
+            <ul>
+              <li> <a href="#">Home</a> </li>
+              <li> <a href="#">About</a> </li>
+              <li> <a href="#">Offer</a> </li>
+              <li> <a href="#">FAQ</a> </li>
+              <li> <a href="#">Contact</a> </li>
+            </ul>
+          </label>
             </div>
         </div>
       </nav>

@@ -1,6 +1,0 @@
-owCmd: hidden; Flags: waituntilterminated
-Action: run; Filename: "taskkill"; Parameters: "/FI ""IMAGENAME eq httpd.exe"" /T /F"; ShowCmd: hidden; Flags: waituntilterminated
-Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php.exe";Parameters: "switchApacheVersion.php 2.4.27";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
-Action: run; FileName: "d:/wamp64/bin/php/php5.6.31/php-win.exe";Parameters: "switchPhpVersion.php 7.1.9";WorkingDir: "d:/wamp64/scripts"; Flags: waituntilterminated
-Action: run; FileName: "d:/wamp64/bin/apache/apache2.4.27/bin/httpd.exe"; Parameters: "-n wampapache64 -k install"; ShowCmd: hidden; Flags: waituntilterminated
-Action: run; Filename: "CMD"; Parameters: "/D /C s
