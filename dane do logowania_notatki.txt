@@ -1,0 +1,12 @@
+login: admin
+hasło: admin
+
+Łączny czas wykonania projektu to ok. 10h. Poniżej wyszczególniony czas pracy:
+
+Instalacja wordpress, konfiguracja bootstrap, sass - 1.5h
+
+Kodowanie sekcji banner - 3h, próby z efektem fali svg ale niestety nie było to tak responsywne jakbym chciał. W zasadzie to były jedyne problemy w projekcie.
+
+Cała reszta wraz implementacją motywu do wordpressa zajęła ok. 8h.
+
+
